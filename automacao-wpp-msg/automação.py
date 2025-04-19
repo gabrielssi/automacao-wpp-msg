@@ -18,7 +18,7 @@ with open('clientes.csv', 'r', encoding='utf-8') as arquivo:
 # Abre o navegador só uma vez
 pa.press('win')
 time.sleep(0.5)
-pa.write('chrome') //coloque o navegador de preferência OBS: é necessário baixar o whatsapp em seu pc
+pa.write('chrome') '''coloque o seu navegador de preferência'''
 time.sleep(0.5)
 pa.press('enter')
 time.sleep(3)
